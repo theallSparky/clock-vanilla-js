@@ -1,9 +1,22 @@
 :root {
-    --amber: rgb(255, 182, 66)
-    --amber-2: rgb(204, 157, 79)
+    --amber: rgb(255, 182, 66);
+    --amber2: rgb(204, 157, 79);
+    --amber-bg: rgb(36, 29, 12);
+    --amber-bg2: rgb(24, 22, 21);
+    text-align: center;
 }
 
-body {
-    background-color: #251111
+.clock {
+    background-color: var(--amber-bg);
+    color: rgb(204, 157, 79);
 }
 
+.day {
+    background-color: var(--amber2);
+    color: rgb(204, 157, 79);
+}
+
+.dayOfWeek {
+    background-color: var(--amber-bg2);
+    background-color: var(--amber2);
+}
