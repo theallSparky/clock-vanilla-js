@@ -35,6 +35,7 @@ const showTime = () => {
     let secs = date.getSeconds()
     let ms = date.getMilliseconds()
     let session = 'AM'
+    //
 
 
     //Select the day of the week, either sunday - saturday. 
@@ -42,6 +43,7 @@ const showTime = () => {
     //Select the day of the month, either 1 - 31. 
     let dayOfMonth = date.getDate()
     console.log(dayOfMonth, dayOfWeek)
+    //
 
     //Logic for if AM or PM
     if (hours == 0 ) {
@@ -67,6 +69,7 @@ const showTime = () => {
     if (secs<10) {
         secs = "0" + secs
     }
+    //
 
     let time = `${hours}:${mins}:${secs}.${ms} ${session}`
 
