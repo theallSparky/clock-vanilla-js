@@ -58,7 +58,11 @@ const showTime = () => {
     document.querySelector(".clock").innerText = time
     document.querySelector(".clock").textContent = time
 
+    //Displays 'December 5, 2023'
     document.querySelector(".day").innerHTML = `${months[date.getMonth()]} ${dayOfMonth}, ${date.getFullYear()}`
+
+    //Displays day of week
+    document.querySelector('.dayOfWeek').innerHTML = dayOfWeek
 
 
     console.log(time)
