@@ -64,10 +64,7 @@ const showTime = () => {
     //Displays day of week
     document.querySelector('.dayOfWeek').innerHTML = dayOfWeek
 
-
-    console.log(time)
-
-
+setTimeout(showTime, 25)
 
 }
 
