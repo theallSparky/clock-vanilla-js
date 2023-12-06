@@ -71,12 +71,14 @@ const showTime = () => {
     }
     //
 
+    //Time is the value displayde on the top line
     let time = `${hours}:${mins}:${secs}.${ms} ${session}`
 
+    //Sets time into element
     document.querySelector(".clock").innerText = time
     document.querySelector(".clock").textContent = time
 
-    //Displays 'December 5, 2023'
+    //Displays for ex: 'December 5, 2023'
     document.querySelector(".day").innerHTML = `${months[date.getMonth()]} ${dayOfMonth}, ${date.getFullYear()}`
 
     //Displays day of week
