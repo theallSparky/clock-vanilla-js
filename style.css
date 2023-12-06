@@ -4,19 +4,24 @@
     --amber-bg: rgb(36, 29, 12);
     --amber-bg2: rgb(24, 22, 21);
     text-align: center;
+    font-size: larger;
 }
 
 .clock {
     background-color: var(--amber-bg);
     color: rgb(204, 157, 79);
+    padding: 2px 0;
 }
 
-.day {
+.day { /* Month num, year */
     background-color: var(--amber2);
-    color: rgb(204, 157, 79);
+    padding: 2px 0;
+
 }
 
-.dayOfWeek {
-    background-color: var(--amber-bg2);
-    background-color: var(--amber2);
+.dayOfWeek { /* Sun-Sat  */
+    background: var(--amber-bg2);
+    color: var(--amber2);
+    padding: 2px 0;
+
 }
