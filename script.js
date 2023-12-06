@@ -58,7 +58,7 @@ const showTime = () => {
     document.querySelector(".clock").innerText = time
     document.querySelector(".clock").textContent = time
 
-    document.querySelector(".day").innerHTML = months[date.getMonth()]
+    document.querySelector(".day").innerHTML = `${months[date.getMonth()]} ${dayOfMonth}, ${date.getFullYear()}`
 
 
     console.log(time)
