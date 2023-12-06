@@ -52,6 +52,21 @@ const showTime = () => {
         hours = hours - 12
         session = 'PM'
     }
+    //
+
+
+    //Formats to keep 2 digits even if h/m/s is below 10
+    if (hours<10) {
+        hours = "0" + hours
+    }
+
+    if (mins<10) {
+        mins = "0" + mins
+    }
+
+    if (secs<10) {
+        secs = "0" + secs
+    }
 
     let time = `${hours}:${mins}:${secs}.${ms} ${session}`
 
