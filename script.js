@@ -70,6 +70,10 @@ const showTime = () => {
         secs = "0" + secs
     }
 
+    if (ms === 0) {
+        ms = "00" + ms
+    }
+    
     if (ms<100) {
         ms = "0" + ms
     }
