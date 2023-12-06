@@ -69,6 +69,10 @@ const showTime = () => {
     if (secs<10) {
         secs = "0" + secs
     }
+
+    if (ms<100) {
+        ms = "0" + ms
+    }
     //
 
     //Time is the value displayde on the top line
